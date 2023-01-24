@@ -57,8 +57,7 @@ namespace SW_TPmoyennes
 
 
         //function calculer la moyenne générale d’un élève
-        //resulat bizzare
-        //je suis bloqué ici
+       
 
         public double moyenneDouble()
         {
@@ -69,7 +68,7 @@ namespace SW_TPmoyennes
 
             for (int i = 0; i < notes.Count; i++)
             {
-                moyenneMatiere = moyenneDouble(i);
+                moyenneMatiere = notes[i].note;
                 moyenneGenerale += moyenneMatiere;
             }
 
