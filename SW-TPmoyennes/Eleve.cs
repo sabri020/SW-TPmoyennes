@@ -69,6 +69,7 @@ namespace SW_TPmoyennes
 
             for (int i = 0; i < notes.Count; i++)
             {
+
                 moyenneMatiere = moyenneDouble(i);
                 moyenneGenerale += moyenneMatiere;
             }
