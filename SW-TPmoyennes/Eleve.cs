@@ -28,16 +28,6 @@ namespace SW_TPmoyennes
         }
 
 
-        // fomater l'affichage des notes
-        public string Moyenne(int MatiereID)
-        {
-            return moyenneDouble(MatiereID).ToString("0.00");
-        }
-        public string Moyenne()
-        {
-            return moyenneDouble().ToString("0.00");
-        }
-
         //function calculer la moyenne d’un élève dans chaque matière
 
         public double moyenneDouble(int MatiereID)
@@ -57,7 +47,7 @@ namespace SW_TPmoyennes
 
 
         //function calculer la moyenne générale d’un élève
-       
+       //
 
         public double moyenneDouble()
         {
@@ -75,6 +65,18 @@ namespace SW_TPmoyennes
             moyenneGenerale = moyenneGenerale / notes.Count;
             return moyenneGenerale;
         }
+
+
+        // fomater l'affichage des notes
+        public string Moyenne(int MatiereID)
+        {
+            return moyenneDouble(MatiereID).ToString("0.00");
+        }
+        public string Moyenne()
+        {
+            return moyenneDouble().ToString("0.00");
+        }
+
 
     }
 }
