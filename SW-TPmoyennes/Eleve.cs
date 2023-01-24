@@ -57,7 +57,7 @@ namespace SW_TPmoyennes
 
 
         //function calculer la moyenne générale d’un élève
-       
+       //
 
         public double moyenneDouble()
         {
